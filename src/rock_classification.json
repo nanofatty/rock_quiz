@@ -1,0 +1,344 @@
+﻿{
+    "rockclass": [
+        {
+            "rock_name": "Breccia",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Gravel",
+            "crystalline_clast": "Angular clast > 2mm",
+            "compositon": "Fragments of Any"
+        },
+        {
+            "rock_name": "Conglomerate",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Gravel",
+            "crystalline_clast": "Rounded clasts > 2mm",
+            "compositon": "Fragments of Any"
+        },
+        {
+            "rock_name": "Sandstone",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Sand",
+            "crystalline_clast": "Clast visible by naked eye",
+            "additional_properties": "Feels like sandpaper",
+            "compositon": "Fragments of Any"
+        },
+        {
+            "rock_name": "Sandstone",
+            "sub_name": "Quartz Sandstone",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Sand",
+            "crystalline_clast": "Clast visible by naked eye",
+            "additional_properties": "Feels like sandpaper",
+            "compositon": "Fragments of Any",
+            "prominent_composition": "Quartz"
+        },
+        {
+            "rock_name": "Sandstone",
+            "sub_name": "Arkose",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Sand",
+            "crystalline_clast": "Clast visible by naked eye",
+            "additional_properties": "Feels like sandpaper",
+            "compositon": "Fragments of Any",
+            "prominent_composition": "Feldspar"
+        },
+        {
+            "rock_name": "Sandstone",
+            "sub_name": "Greywacke",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Sand",
+            "crystalline_clast": "Clast visible by naked eye",
+            "additional_properties": "Feels like sandpaper",
+            "compositon": "Fragments of Any",
+            "prominent_composition": "Sand mixed with Mud"
+        },
+        {
+            "rock_name": "Siltstone",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Slit",
+            "crystalline_clast": "Clast visible by hand lens",
+            "additional_properties": "Slight grit when rubbed with finger or mouth against teeth",
+            "compositon": "Fragments of Any"
+        },
+        {
+            "rock_name": "Shale",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Clay",
+            "crystalline_clast": "Clasts visible using a microsocpe",
+            "additional_properties": "Fissile or splits easily",
+            "compositon": "Fragments of Any"
+        },
+        {
+            "rock_name": "Shale",
+            "sub_name": "Mudstone",
+            "category": "Sedimentary",
+            "sub_category": "Derital",
+            "texture": "Clastic",
+            "size": "Clay",
+            "crystalline_clast": "Clasts visible using a microsocpe",
+            "additional_properties": "Fissile or splits easily",
+            "compositon": "Fragments of Any",
+            "prominent_composition": "slit and clay clasts are indistigusihable and fissile texture not apparent"
+        },
+        {
+            "rock_name": "Limestone",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals visible to microcrystalline",
+            "additional_properties": "Maybe laminated",
+            "compositon": "Calcite",
+            "composition_properties": "Efferveces rapidly with dil HCL"
+        },
+        {
+            "rock_name": "Limestone",
+            "sub_name": "Travertine",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals visible to microcrystalline",
+            "additional_properties": "Maybe laminated",
+            "compositon": "Calcite",
+            "composition_properties": "Efferveces rapidly with dil HCL",
+            "prominent_composition": "Color Banding and/or porous"
+        },
+        {
+            "rock_name": "Dolostone",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals visible to microcrystalline",
+            "additional_properties": "Maybe laminated",
+            "compositon": "Dolomite",
+            "composition_properties": "Efferveces only after powdered"
+        },
+        {
+            "rock_name": "Rock Salt",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals visible to naked eye",
+            "compositon": "Halite"
+        },
+        {
+            "rock_name": "Rock Gypsum",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals visible to microcrystalline",
+            "compositon": "Gypsum"
+        },
+        {
+            "rock_name": "Chert",
+            "sub_name": "Chert",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals not visible or cryptocrystalline",
+            "compositon": "Chalcedony",
+            "composition_properties": "Quartz but microscopic or submicroscopic crystals",
+            "prominent_composition": "light color"
+        },
+        {
+            "rock_name": "Chert",
+            "sub_name": "Flint",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals not visible or cryptocrystalline",
+            "compositon": "Chalcedony",
+            "composition_properties": "Quartz but microscopic or submicroscopic crystals",
+            "prominent_composition": "dark color"
+        },
+        {
+            "rock_name": "Chert",
+            "sub_name": "Jasper",
+            "category": "Sedimentary",
+            "sub_category": "Chemical",
+            "texture": "Crystalline",
+            "crystalline_clast": "Crystals not visible or cryptocrystalline",
+            "compositon": "Chalcedony",
+            "composition_properties": "Quartz but microscopic or submicroscopic crystals",
+            "prominent_composition": "Reddis color"
+        },
+        {
+            "rock_name": "Coal",
+            "sub_name": "(peat, lignite, bitmunous and anthracite)",
+            "category": "Sedimentary",
+            "sub_category": "Biogenic",
+            "texture": "Non-Crystalline",
+            "crystalline_clast": "Layered ",
+            "additional_properties": "Brittle",
+            "compositon": "Altered Plant remains"
+        },
+        {
+            "rock_name": "Coquina",
+            "category": "Sedimentary",
+            "sub_category": "Biogenic",
+            "texture": "Bioclastic",
+            "crystalline_clast": "Gravel sized fragments cemented together",
+            "compositon": "Calcite"
+        },
+        {
+            "rock_name": "Fossiliferous Limestone",
+            "category": "Sedimentary",
+            "sub_category": "Biogenic",
+            "texture": "Bioclastic/Crystaline",
+            "crystalline_clast": "Crystals visible to microcrystalline",
+            "additional_properties": "Visible fossils",
+            "compositon": "Calcite"
+        },
+        {
+            "rock_name": "Chalk",
+            "category": "Sedimentary",
+            "sub_category": "Biogenic",
+            "texture": "Bioclastic",
+            "crystalline_clast": "Microscopic shells",
+            "compositon": "Calcite"
+        },
+        {
+            "rock_name": "Slate",
+            "category": "Metamorphic",
+            "arrangement_distribution": "Salty Cleavage",
+            "sheet_arrangement": "Flat sheets",
+            "crystalline_clast": "No visible Crystals",
+            "additional_properties": "Dull lustre",
+            "compositon": "Mica and Quartz clay minerals",
+            "composition_properties": "chlorite, graphite"
+        },
+        {
+            "rock_name": "Phyllite",
+            "category": "Metamorphic",
+            "arrangement_distribution": "Salty Cleavage",
+            "sheet_arrangement": "Wavy surfaces",
+            "crystalline_clast": "Few Visible Crystals",
+            "additional_properties": "Shiny Metallic lustre",
+            "compositon": "Mica and Quartz",
+            "composition_properties": "chlorite, graphite"
+        },
+        {
+            "rock_name": "Schist",
+            "category": "Metamorphic",
+            "arrangement_distribution": "Schistosity",
+            "sheet_arrangement": "Scaly surface",
+            "crystalline_clast": "Crystaline (visible and aligned minerals crystals)",
+            "compositon": "Mica and Quartz",
+            "composition_properties": "chlorite, graphite, hornblende, talc"
+        },
+        {
+            "rock_name": "Gneiss",
+            "category": "Metamorphic",
+            "arrangement_distribution": "Gneissic Banding",
+            "sheet_arrangement": "Alternatic layers",
+            "crystalline_clast": "Crystaline (visible and separated mineral crystals)",
+            "compositon": "Feldspar and Quartz Mica, Hornblende or Augite",
+            "composition_properties": "garnet, staurolite, kyanite"
+        },
+        {
+            "rock_name": "Granite",
+            "category": "Igneous",
+            "texture": "Phanaretic",
+            "mci": "Felsic",
+            "compositon": "Potassium Feldspar, Quartz, Muscovite, biotie, Plagioclase Feldspar",
+            "prominent_composition": "Potassium Feldspar"
+        },
+        {
+            "rock_name": "Rhyolite",
+            "category": "Igneous",
+            "texture": "Aphanitic",
+            "mci": "Felsic",
+            "compositon": "Potassium Feldspar, Quartz, Muscovite, biotie, Plagioclase Feldspar",
+            "prominent_composition": "Potassium Feldspar"
+        },
+        {
+            "rock_name": "Diorite",
+            "category": "Igneous",
+            "texture": "Phanaretic",
+            "mci": "Intermediate",
+            "compositon": "Plagioclase Fledspar, Potassium Feldspar, Quartz, Biotie, Hornblende, Augite",
+            "prominent_composition": "Plagioclase Feldspar, Biotite/hornblende"
+        },
+        {
+            "rock_name": "Andesite",
+            "category": "Igneous",
+            "texture": "Aphanitic",
+            "mci": "Intermediate",
+            "compositon": "Plagioclase Fledspar, Potassium Feldspar, Quartz, Biotie, Hornblende, Augite",
+            "prominent_composition": "Plagioclase Feldspar, Biotite/hornblende"
+        },
+        {
+            "rock_name": "Gabbro",
+            "category": "Igneous",
+            "texture": "Phanaretic",
+            "mci": "Mafic ",
+            "compositon": "Augite, Hornblende, Plagioclase Feldspar, Olivine",
+            "prominent_composition": "Augite, Plagioclase Feldspar"
+        },
+        {
+            "rock_name": "Basalt",
+            "category": "Igneous",
+            "texture": "Aphanitic",
+            "mci": "Mafic",
+            "compositon": "Augite, Hornblende, Plagioclase Feldspar, Olivine",
+            "prominent_composition": "Augite, Plagioclase Feldspar"
+        },
+        {
+            "rock_name": "Peridotite",
+            "category": "Igneous",
+            "texture": "Phanaretic",
+            "mci": "Ultramfic",
+            "compositon": "Olivine, Augite, Plagioclase Feldspar",
+            "prominent_composition": "Olivine, Augite"
+        },
+        {
+            "rock_name": "Komatite",
+            "category": "Igneous",
+            "texture": "Aphanitic",
+            "mci": "Ultramfic",
+            "compositon": "Olivine, Augite, Plagioclase Feldspar",
+            "prominent_composition": "Olivine, Augite"
+        },
+        {
+            "rock_name": "Obsidian",
+            "category": "Igneous",
+            "sub_category": "Glass",
+            "texture": "Smooth",
+            "additional_properties": "Choncoidal fractures",
+            "compositon": "Silicone dioxide"
+        },
+        {
+            "rock_name": "Scoria",
+            "category": "Igneous",
+            "sub_category": "Glass",
+            "texture": "Vesicular",
+            "mci": "mafic",
+            "compositon": "Augite, Hornblende, Plagioclase Feldspar, Olivine",
+            "prominent_composition": "Augite, Plagioclase Feldspar"
+        },
+        {
+            "rock_name": "Pumice",
+            "category": "Igneous",
+            "sub_category": "Glass",
+            "texture": "Extremely Vesicular",
+            "mci": "Felsic",
+            "compositon": "Potassium Feldspar, Quartz, Muscovite, biotie, Plagioclase Feldspar",
+            "prominent_composition": "Potassium Feldspar"
+        }
+    ]
+}
