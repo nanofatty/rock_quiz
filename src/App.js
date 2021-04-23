@@ -1,12 +1,18 @@
-import RockClass from "./rock_classification.json";
+// Main application, Questions are created using functions, and using useState the Questions Progresses 
+
+
+
+import RockClass from "./Components/rock_classification.json";
 import React, { useState } from 'react';
 import Button from "./Components/Button";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
-
+import Question from './Components/Questions.js'
+import Questions from "./Components/Questions.js";
 
 export default function App() {
-	const rocks = RockClass.rockclass;
+	const rocks = RockClass.rockclass; 
+	// randomizes any array and none of the values in it repeat
 	function randomize(array) 
 	{ for (let i = array.length - 1; i > 0; i--) 
 		{ const j = Math.floor(Math.random() * (i + 1)); 
@@ -20,10 +26,16 @@ export default function App() {
 		rock.category === 'Igneous');
 	const metamorphicRocks = rocks.filter(rock => 
 		rock.category === 'Metamorphic');	
-		
-console.log(randomize(igneousRocks))
+	const answerOption1 = ['texture', 'arrrangment', 'crystalline_clast', 'mineral','prominent_composition']		
+// Couple of testings for the functions I have written, these won't show up in the final result
+// but they do in the console
+	const randSedimentary = randomize(sedimentaryRocks);
+	console.log(randomize(randomize(sedimentaryRocks)));
+	console.log(Questions(randSedimentary))
 
-const answerOption1 = ['texture', 'arrrangment', 'crystalline_clast', 'mineral','prominent_composition']
+// Original set of Questions and Answers to get the the Quiz to get to work
+// to be  modified by essentially adding the questions into an empty array
+// by using the function from Questions.js component
 
 	const questions = [
 		{
@@ -71,6 +83,7 @@ const answerOption1 = ['texture', 'arrrangment', 'crystalline_clast', 'mineral',
 		},
 	];
 	
+	// Essentially the heart of the Quiz
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
@@ -89,6 +102,7 @@ const answerOption1 = ['texture', 'arrrangment', 'crystalline_clast', 'mineral',
 	};
 	const randomArray = Array.from({length: 4}, () => Math.floor(Math.random() * 4));
 	return (
+		// The output of the Quiz
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>

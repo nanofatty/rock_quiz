@@ -1,3 +1,9 @@
+// Menu.js is a file that aims to essentially create a dropdown list. 
+// This is currently still experimental, idea is to have dropdown options
+// These Dropdowns items would be mapped to the appropriate information they need to provide
+// Might use Modal instead or along with Modal
+// Currently this only adds a dropdown, that shows the options, clicking the option closes the dropdown
+
 import React from 'react';
 import Button from './Button';
 import Menu from '@material-ui/core/Menu';

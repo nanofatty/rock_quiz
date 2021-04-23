@@ -1,4 +1,4 @@
-import Button from './Button'
+// Header component
 const Header = ({ title }) => {
     return (
         <header className= 'body'>
@@ -6,7 +6,4 @@ const Header = ({ title }) => {
         </header>
     )
 }
-// const headingStyle = {
-//     color:'blueviolet', backgroundColor: 'black' 
-// }
 export default Header
