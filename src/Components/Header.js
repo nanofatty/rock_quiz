@@ -1,9 +1,8 @@
 import Button from './Button'
 const Header = ({ title }) => {
     return (
-        <header>
-            <h1 >{title}</h1>
-            <Button color= 'hotpink' text='Header'  />
+        <header className= 'body'>
+            <h4 >{title}</h4>
         </header>
     )
 }

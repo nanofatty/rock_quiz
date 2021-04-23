@@ -1,6 +1,7 @@
 ﻿{
     "rockclass": [
         {
+            "id": "f5vD8",
             "rock_name": "Breccia",
             "category": "Sedimentary",
             "sub_category": "Derital",
@@ -10,6 +11,7 @@
             "compositon": "Fragments of Any"
         },
         {
+            "id": "Helm9",
             "rock_name": "Conglomerate",
             "category": "Sedimentary",
             "sub_category": "Derital",
@@ -19,6 +21,7 @@
             "compositon": "Fragments of Any"
         },
         {
+            "id": "qO6JN",
             "rock_name": "Sandstone",
             "category": "Sedimentary",
             "sub_category": "Derital",
@@ -26,9 +29,11 @@
             "size": "Sand",
             "crystalline_clast": "Clast visible by naked eye",
             "additional_properties": "Feels like sandpaper",
-            "compositon": "Fragments of Any"
+            "compositon": "Fragments of Any",
+            "image":"https://1.bp.blogspot.com/-t_6FVcD-fM8/WH9xsi5OdRI/AAAAAAAAEYQ/6EysSAdQbR8Bdp8WCq9Y89JfZC18NpEXACLcB/s1600/20080130110622.jpg"
         },
         {
+            "id": "rICJu",
             "rock_name": "Sandstone",
             "sub_name": "Quartz Sandstone",
             "category": "Sedimentary",
@@ -41,6 +46,7 @@
             "prominent_composition": "Quartz"
         },
         {
+            "id": "iYgxJ",
             "rock_name": "Sandstone",
             "sub_name": "Arkose",
             "category": "Sedimentary",
@@ -53,6 +59,7 @@
             "prominent_composition": "Feldspar"
         },
         {
+            "id": "Q-nxo",
             "rock_name": "Sandstone",
             "sub_name": "Greywacke",
             "category": "Sedimentary",
@@ -65,6 +72,7 @@
             "prominent_composition": "Sand mixed with Mud"
         },
         {
+            "id": "RW3Y-",
             "rock_name": "Siltstone",
             "category": "Sedimentary",
             "sub_category": "Derital",
@@ -75,6 +83,7 @@
             "compositon": "Fragments of Any"
         },
         {
+            "id": "koZpT",
             "rock_name": "Shale",
             "category": "Sedimentary",
             "sub_category": "Derital",
@@ -85,6 +94,7 @@
             "compositon": "Fragments of Any"
         },
         {
+            "id": "o24bE",
             "rock_name": "Shale",
             "sub_name": "Mudstone",
             "category": "Sedimentary",
@@ -97,6 +107,7 @@
             "prominent_composition": "slit and clay clasts are indistigusihable and fissile texture not apparent"
         },
         {
+            "id": "8dvCP",
             "rock_name": "Limestone",
             "category": "Sedimentary",
             "sub_category": "Chemical",
@@ -107,6 +118,7 @@
             "composition_properties": "Efferveces rapidly with dil HCL"
         },
         {
+            "id": "SPaFC",
             "rock_name": "Limestone",
             "sub_name": "Travertine",
             "category": "Sedimentary",
@@ -119,6 +131,7 @@
             "prominent_composition": "Color Banding and/or porous"
         },
         {
+            "id": "you0i",
             "rock_name": "Dolostone",
             "category": "Sedimentary",
             "sub_category": "Chemical",
@@ -129,6 +142,7 @@
             "composition_properties": "Efferveces only after powdered"
         },
         {
+            "id": "sukrw",
             "rock_name": "Rock Salt",
             "category": "Sedimentary",
             "sub_category": "Chemical",
@@ -137,6 +151,7 @@
             "compositon": "Halite"
         },
         {
+            "id": "bmY1Q",
             "rock_name": "Rock Gypsum",
             "category": "Sedimentary",
             "sub_category": "Chemical",
@@ -145,6 +160,7 @@
             "compositon": "Gypsum"
         },
         {
+            "id": "9LRwV",
             "rock_name": "Chert",
             "sub_name": "Chert",
             "category": "Sedimentary",
@@ -156,6 +172,7 @@
             "prominent_composition": "light color"
         },
         {
+            "id": "3MMUY",
             "rock_name": "Chert",
             "sub_name": "Flint",
             "category": "Sedimentary",
@@ -167,6 +184,7 @@
             "prominent_composition": "dark color"
         },
         {
+            "id": "WBBcL",
             "rock_name": "Chert",
             "sub_name": "Jasper",
             "category": "Sedimentary",
@@ -178,6 +196,7 @@
             "prominent_composition": "Reddis color"
         },
         {
+            "id": "Z9VH7",
             "rock_name": "Coal",
             "sub_name": "(peat, lignite, bitmunous and anthracite)",
             "category": "Sedimentary",
@@ -188,6 +207,7 @@
             "compositon": "Altered Plant remains"
         },
         {
+            "id": "CnVbc",
             "rock_name": "Coquina",
             "category": "Sedimentary",
             "sub_category": "Biogenic",
@@ -196,6 +216,7 @@
             "compositon": "Calcite"
         },
         {
+            "id": "QXN3w",
             "rock_name": "Fossiliferous Limestone",
             "category": "Sedimentary",
             "sub_category": "Biogenic",
@@ -205,6 +226,7 @@
             "compositon": "Calcite"
         },
         {
+            "id": "GYbjX",
             "rock_name": "Chalk",
             "category": "Sedimentary",
             "sub_category": "Biogenic",
@@ -213,6 +235,7 @@
             "compositon": "Calcite"
         },
         {
+            "id": "1lFg_",
             "rock_name": "Slate",
             "category": "Metamorphic",
             "arrangement_distribution": "Salty Cleavage",
@@ -223,6 +246,7 @@
             "composition_properties": "chlorite, graphite"
         },
         {
+            "id": "90WIW",
             "rock_name": "Phyllite",
             "category": "Metamorphic",
             "arrangement_distribution": "Salty Cleavage",
@@ -233,6 +257,7 @@
             "composition_properties": "chlorite, graphite"
         },
         {
+            "id": "XAsDI",
             "rock_name": "Schist",
             "category": "Metamorphic",
             "arrangement_distribution": "Schistosity",
@@ -242,6 +267,7 @@
             "composition_properties": "chlorite, graphite, hornblende, talc"
         },
         {
+            "id": "NVpcc",
             "rock_name": "Gneiss",
             "category": "Metamorphic",
             "arrangement_distribution": "Gneissic Banding",
@@ -251,6 +277,7 @@
             "composition_properties": "garnet, staurolite, kyanite"
         },
         {
+            "id": "SdV3J",
             "rock_name": "Granite",
             "category": "Igneous",
             "texture": "Phanaretic",
@@ -259,6 +286,7 @@
             "prominent_composition": "Potassium Feldspar"
         },
         {
+            "id": "4g4cx",
             "rock_name": "Rhyolite",
             "category": "Igneous",
             "texture": "Aphanitic",
@@ -267,6 +295,7 @@
             "prominent_composition": "Potassium Feldspar"
         },
         {
+            "id": "RILqE",
             "rock_name": "Diorite",
             "category": "Igneous",
             "texture": "Phanaretic",
@@ -275,6 +304,7 @@
             "prominent_composition": "Plagioclase Feldspar, Biotite/hornblende"
         },
         {
+            "id": "neGX4",
             "rock_name": "Andesite",
             "category": "Igneous",
             "texture": "Aphanitic",
@@ -283,6 +313,7 @@
             "prominent_composition": "Plagioclase Feldspar, Biotite/hornblende"
         },
         {
+            "id": "uNlnK",
             "rock_name": "Gabbro",
             "category": "Igneous",
             "texture": "Phanaretic",
@@ -291,6 +322,7 @@
             "prominent_composition": "Augite, Plagioclase Feldspar"
         },
         {
+            "id": "CSZHA",
             "rock_name": "Basalt",
             "category": "Igneous",
             "texture": "Aphanitic",
@@ -299,6 +331,7 @@
             "prominent_composition": "Augite, Plagioclase Feldspar"
         },
         {
+            "id": "polOZ",
             "rock_name": "Peridotite",
             "category": "Igneous",
             "texture": "Phanaretic",
@@ -307,6 +340,7 @@
             "prominent_composition": "Olivine, Augite"
         },
         {
+            "id": "zakR1",
             "rock_name": "Komatite",
             "category": "Igneous",
             "texture": "Aphanitic",
@@ -315,6 +349,7 @@
             "prominent_composition": "Olivine, Augite"
         },
         {
+            "id": "1P2-7",
             "rock_name": "Obsidian",
             "category": "Igneous",
             "sub_category": "Glass",
@@ -323,6 +358,7 @@
             "compositon": "Silicone dioxide"
         },
         {
+            "id": "38dL4",
             "rock_name": "Scoria",
             "category": "Igneous",
             "sub_category": "Glass",
@@ -332,6 +368,7 @@
             "prominent_composition": "Augite, Plagioclase Feldspar"
         },
         {
+            "id": "VSWoc",
             "rock_name": "Pumice",
             "category": "Igneous",
             "sub_category": "Glass",
