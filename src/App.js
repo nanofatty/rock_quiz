@@ -3,12 +3,26 @@
 
 
 import RockClass from "./Components/rock_classification.json";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Button from "./Components/Button";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
-import Question from './Components/Questions.js'
-import Questions from "./Components/Questions.js";
+import Question from "./Components/Question.js";
+import Modal from "./Components/Modal";
+
+const BUTTON_WRAPPER_STYLES = {
+	position: 'relative',
+	zIndex: 1
+  }
+  
+  const OTHER_CONTENT_STYLES = {
+	position: 'relative',
+	zIndex: 2,
+	backgroundColor: 'red',
+	padding: '10px'
+  }
+
+
 
 export default function App() {
 	const rocks = RockClass.rockclass; 
@@ -19,7 +33,7 @@ export default function App() {
 			[array[i], array[j]] = [array[j], array[i]]; } 
 		
 		return array};
-	
+
 	const sedimentaryRocks = rocks.filter(rock => 
 		rock.category === 'Sedimentary');
 	const igneousRocks = rocks.filter(rock => 
@@ -30,58 +44,41 @@ export default function App() {
 // Couple of testings for the functions I have written, these won't show up in the final result
 // but they do in the console
 	const randSedimentary = randomize(sedimentaryRocks);
-	console.log(randomize(randomize(sedimentaryRocks)));
-	console.log(Questions(randSedimentary))
+	const randIgneous = randomize(igneousRocks);
+	const randMetamorphic = randomize(metamorphicRocks)
 
-// Original set of Questions and Answers to get the the Quiz to get to work
-// to be  modified by essentially adding the questions into an empty array
-// by using the function from Questions.js component
+	// let firstQuestion = []
+	// let secondQuestion=[]
+	// let thirdQuestion=[]
+	// const [questions, setQuestions]= useState([])	
 
-	const questions = [
-		{
-			questionText: 
-			<>
-				<Header title = "Indetify the rock" />
-			<img src= {sedimentaryRocks[2].image} 
-			alt="test" width="200" height="200"/>
-			<Menu options = {answerOption1}/>
-			
-	  </>,
-			answerOptions: [
-				{ answerText:'text2', isCorrect: false},
-				{ answerText:'text1', isCorrect: false },
-				{ answerText: 'Sandstone', isCorrect: true },
-				{ answerText: 'Sanstoned', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'Not an animal',
-			answerOptions: [
-				{ answerText: 'Cat', isCorrect: false },
-				{ answerText: 'mat', isCorrect: true },
-				{ answerText: 'bat', isCorrect: false },
-				{ answerText: 'rat', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'Rocks',
-			answerOptions: [
-				{ answerText: 'Shale', isCorrect: true },
-				{ answerText: 'Geodude', isCorrect: false },
-				{ answerText: 'Rhyperior', isCorrect: false },
-				{ answerText: 'Onyx', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'Darkest on MCI',
-			answerOptions: [
-				{ answerText: 'mafic', isCorrect: false },
-				{ answerText: 'intermediate', isCorrect: false },
-				{ answerText: 'felsic', isCorrect: false },
-				{ answerText: 'ultramafic', isCorrect: true },
-			],
-		},
-	];
+	const firstQuestion = Question(randIgneous)
+	const secondQuestion = Question(randSedimentary)
+	const thirdQuestion = Question(randMetamorphic)
+	const questions = [] 
+	questions.push(firstQuestion[0], 
+		secondQuestion[1], 
+		firstQuestion[3], 
+		thirdQuestion[0], 
+		firstQuestion[1], 
+		firstQuestion[2], 
+		firstQuestion[1], 
+		firstQuestion[2], 
+		secondQuestion[0], 
+		thirdQuestion[1]);
+
+
+// setQuestions(firstQuestion)
+// console.log(secondQuestion)
+	// useEffect(() => {
+
+	// 	firstQuestion = Question(randIgneous)
+	// 	secondQuestion = Question(randIgneous)
+	// 	thirdQuestion = Question(randIgneous)
+	// setQuestions(firstQuestion[0], firstQuestion[1])
+	// }, []);
+	// console.log(questions)
+
 	
 	// Essentially the heart of the Quiz
 	const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -100,9 +97,7 @@ export default function App() {
 			setShowScore(true);
 		}
 	};
-	const randomArray = Array.from({length: 4}, () => Math.floor(Math.random() * 4));
 	return (
-		// The output of the Quiz
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>
@@ -117,8 +112,9 @@ export default function App() {
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 					</div>
 					<div className='answer-section'>
-						{questions[currentQuestion].answerOptions.map((answerOption, i) => (
-							<button key = {i} onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+						{questions[currentQuestion].answerOption.map((answerOption, i) => (
+							<button key = {i} onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>
+								{answerOption.answerText}</button>
 						))}
 					</div>
 				</>
